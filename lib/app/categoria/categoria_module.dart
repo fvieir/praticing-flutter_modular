@@ -6,7 +6,7 @@ class CategoriaModule extends Module {
   List<ModularRoute> get routes => [
         ChildRoute(
           Modular.initialRoute,
-          child: (buildContext, args) => const CategoriaPage(),
+          child: (buildContext, args) => CategoriaPage(),
         ),
       ];
 }
